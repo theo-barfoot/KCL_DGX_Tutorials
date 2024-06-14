@@ -5,7 +5,7 @@ Host aicheadnode*
  UserKnownHostsFile=/dev/null
  LogLevel ERROR
  # If your computer is outside the school network you need to add this line
- ProxyCommand ssh -q bouncer nc -q0 %h %p 
+ ProxyJump bouncer
 
 # Bouncer account
 Host bouncer
